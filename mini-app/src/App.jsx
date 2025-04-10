@@ -1,30 +1,21 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import { getPopularMovies } from "./services/api";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Favorites from "./pages/Favorites";
+import NavBar from "./components/NavBar";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const loadPopularMovies = async () => {
-      let movies;
-      try {
-        movies = getPopularMovies();
-      } catch (e) {
-        console.log(e);
-        setError("Failed To Load Popular Movies");
-      } finally {
-        setIsLoading(false);
-      }
-      console.log(movies);
-    };
-    loadPopularMovies();
-  }, []);
-
-  return <>Test</>;
+  return (
+    <>
+      <NavBar />
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/favorites" element={<Favorites />} />
+        </Routes>
+      </div>
+    </>
+  );
 }
 
 export default App;
