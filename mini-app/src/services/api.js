@@ -7,11 +7,12 @@ const TMDB_BASE_URL="https://api.themoviedb.org/3";
 */ 
 
 const fetchCall = async (req) => {
-    console.log(req);
+    // console.log(req);
     const res = await fetch(req);
     const data = await res.json();
     return data.results
 }
+
 export const getPopularMovies = async () => {
     return fetchCall(`${TMDB_BASE_URL}/movie/popular?api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
 }
@@ -22,4 +23,12 @@ export const getTrendingActors = async () => {
 
 export const getTrendingTvShows = async () => {
     return fetchCall(`${TMDB_BASE_URL}/trending/tv/day?api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
+}
+
+export const getMovieCredits = async (id) => {
+    const req = `${TMDB_BASE_URL}/movie/${id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`;
+    // console.log(req);
+    const res = await fetch(req);
+    const data = await res.json();
+    return data
 }
