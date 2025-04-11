@@ -2,7 +2,7 @@ import MovieCard from "./MovieCard";
 import { useState, useEffect } from "react";
 import { getPopularMovies } from "/src/services/api";
 
-const MovieList = () => {
+const PopularMovies = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [movies, setMovies] = useState([]);
@@ -34,4 +34,4 @@ const MovieList = () => {
   );
 };
 
-export default MovieList;
+export default PopularMovies;

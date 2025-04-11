@@ -1,10 +1,10 @@
-import MovieList from "../components/MovieList";
+import PopularMovies from "../components/PopularMovies";
 
 const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <MovieList />
+      <PopularMovies />
     </div>
   );
 };
