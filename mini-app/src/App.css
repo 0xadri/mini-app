@@ -41,7 +41,8 @@
   color: #888;
 }
 
-.moviecard {
+.movie-card,
+.actor-card {
   border : 1px grey solid;
   margin-bottom: 20px;
 }
