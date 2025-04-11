@@ -17,3 +17,9 @@ export const getTrendingActors = async () => {
     const data = await res.json();
     return data.results
 }
+
+export const getTrendingTvShows = async () => {
+    const res = await fetch(`${TMDB_BASE_URL}/trending/tv/day?api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
+    const data = await res.json();
+    return data.results
+}

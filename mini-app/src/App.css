@@ -42,7 +42,8 @@
 }
 
 .movie-card,
-.actor-card {
+.actor-card,
+.tvshow-card {
   border : 1px grey solid;
   margin-bottom: 20px;
 }

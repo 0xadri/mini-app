@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import NavBar from "./components/NavBar";
 import TrendingActors from "./pages/TrendingActors";
+import TrendingTvShows from "./pages/TrendingTvShows";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/trending-actors" element={<TrendingActors />} />
+          <Route path="/trending-tvshows" element={<TrendingTvShows />} />
         </Routes>
       </div>
     </>
