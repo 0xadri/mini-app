@@ -24,7 +24,7 @@ const MovieList = () => {
 
   return (
     <>
-      <h2>Movie List</h2>
+      <h2>Popular Movies</h2>
       {isLoading ? (
         <div>Loading...</div>
       ) : (

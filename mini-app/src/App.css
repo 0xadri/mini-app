@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.moviecard {
+  border : 1px grey solid;
+  margin-bottom: 20px;
+}
