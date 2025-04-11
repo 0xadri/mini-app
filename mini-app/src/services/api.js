@@ -32,3 +32,8 @@ export const getMovieCredits = async (id) => {
     const data = await res.json();
     return data
 }
+
+export const searchMoviesContainingInTitle = async (searchTerm) => {
+    return fetchCall(`${TMDB_BASE_URL}/search/movie?query=${searchTerm}&api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
+}
+// fetch('https://api.themoviedb.org/3/search/movie?query=world&include_adult=false&language=en-US&page=1', options)

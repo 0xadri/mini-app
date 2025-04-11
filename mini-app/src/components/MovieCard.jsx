@@ -20,7 +20,7 @@ const MovieCard = ({ movie }) => {
         //console.log(credits);
         const directors = filterInDirectors(credits);
         setMovieDirectors(directors);
-        console.log(directors);
+        // console.log(directors);
       } catch (e) {
         console.log(e);
         setErrorMsg("Failed to load credits");
