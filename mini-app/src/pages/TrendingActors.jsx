@@ -12,7 +12,7 @@ const TrendingActors = () => {
       try {
         const actors = await getTrendingActors();
         setActors(actors);
-        console.log(actors);
+        // console.log(actors);
       } catch (e) {
         setErrorMsg("Error Getting Trending Actors");
         console.log(e);
@@ -23,17 +23,14 @@ const TrendingActors = () => {
     getActors();
   }, []);
 
-  return isLoading ? (
+  return (
     <>
       <h1>Trending Actors</h1>
-      <div>Loading...</div>
-    </>
-  ) : (
-    <>
-      <h1>Trending Actors</h1>
-      {actors.map((actor, index) => (
-        <ActorCard key={index} actor={actor} />
-      ))}
+      {isLoading ? (
+        <div>Loading...</div>
+      ) : (
+        actors.map((actor, index) => <ActorCard key={index} actor={actor} />)
+      )}
     </>
   );
 };
