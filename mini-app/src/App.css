@@ -48,7 +48,8 @@
   margin-bottom: 20px;
 }
 
-.movie-toggle-fav {
+.movie-toggle-fav,
+.actor-toggle-fav {
   display: block;
   border: 1px solid red;
 }
