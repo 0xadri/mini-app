@@ -11,7 +11,7 @@ const NavBar = () => {
       {" · "}
       <Link to="/trending-tvshows">🔥 TV Shows</Link>
       {" · "}
-      <Link to="/favorites">❤️ Favorites</Link>
+      <Link to="/favorite-movies">❤️ Favorites</Link>
     </div>
   );
 };

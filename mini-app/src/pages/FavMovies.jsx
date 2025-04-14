@@ -3,7 +3,7 @@ import { FavMoviesProvider } from "../contexts/FavMoviesContext";
 import { UseFavMoviesContext } from "../contexts/FavMoviesContext";
 import MovieCard from "../components/MovieCard";
 
-const Favorites = () => {
+const FavMovies = () => {
   const { favMovies } = UseFavMoviesContext();
 
   return (
@@ -17,4 +17,4 @@ const Favorites = () => {
   );
 };
 
-export default Favorites;
+export default FavMovies;
