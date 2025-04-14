@@ -11,14 +11,15 @@ const SearchHero = () => {
   const searchWhatever = async (e) => {
     e.preventDefault();
     if (!searchText.trim()) return;
-    if (isLoading) return;
+    // if (isLoading) return;
 
     try {
+      // setIsLoading(true);
       let movies = await searchMoviesContainingInTitle(searchText);
       movies = movies.filter((movie) => movie.backdrop_path); // rm movies wo img
       setMovieResult(movies);
       setErroMsg(null);
-      console.log(movies);
+      // console.log(movies);
     } catch (e) {
       console.log(e);
       setErroMsg("Failed to get search results");
@@ -47,7 +48,9 @@ const SearchHero = () => {
 
       <div>
         {!isLoading &&
-          moviesResult.map((movie, index) => <MovieCard movie={movie} />)}
+          moviesResult.map((movie, index) => (
+            <MovieCard movie={movie} key={index} />
+          ))}
       </div>
     </>
   );
