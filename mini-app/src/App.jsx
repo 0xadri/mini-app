@@ -6,10 +6,11 @@ import NavBar from "./components/NavBar";
 import TrendingActors from "./pages/TrendingActors";
 import TrendingTvShows from "./pages/TrendingTvShows";
 import PopularMovies from "./pages/PopularMovies";
+import { FavMoviesProvider } from "./contexts/FavMoviesContext";
 
 function App() {
   return (
-    <>
+    <FavMoviesProvider>
       <NavBar />
       <div className="main-content">
         <Routes>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/trending-tvshows" element={<TrendingTvShows />} />
         </Routes>
       </div>
-    </>
+    </FavMoviesProvider>
   );
 }
 
