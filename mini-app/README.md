@@ -10,7 +10,9 @@ Vanilla JavaScript · ReactJS · NodeJS · Vite
 
 - JavaScript: API calls, localStorage, promises, spreader syntax.
 
-### Docs TheMovieDB
+### TheMovieDB
+
+API used in this project. Docs below
 
 - https://developer.themoviedb.org/docs/getting-started
 
