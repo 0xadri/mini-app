@@ -16,7 +16,7 @@ const NavBar = () => {
         <span>❤️ Favorites </span>
         <Link to="/favorite-movies">❤️ Fav Movies</Link>
         {" · "}
-        <Link to="/favorite-series">❤️ Fav Series</Link>
+        <Link to="/favorite-tvshows">❤️ Fav TV Shows</Link>
         {" · "}
         <Link to="/favorite-actors">❤️ Fav Actors</Link>
       </div>
