@@ -4,21 +4,21 @@ const NavBar = () => {
   return (
     <>
       <div>
-        <Link to="/">Home</Link>
-        {" · "}
-        <Link to="/popular-movies">🎬 Popular Movies</Link>
-        {" · "}
-        <Link to="/trending-actors">🔥 Hottest Actors</Link>
-        {" · "}
-        <Link to="/trending-tvshows">🔥 Hottest TV Shows</Link>
+        <Link to="/">🏠 Home: Search</Link>
       </div>
       <div>
-        <span>❤️ Favorites </span>
+        <Link to="/popular-movies">🔥 Hottest Movies Of All Time</Link>
+        {" · "}
+        <Link to="/trending-actors">🔥 Trending Actors</Link>
+        {" · "}
+        <Link to="/trending-tvshows">🔥 Trending TV Shows</Link>
+      </div>
+      <div>
         <Link to="/favorite-movies">❤️ Fav Movies</Link>
         {" · "}
-        <Link to="/favorite-tvshows">❤️ Fav TV Shows</Link>
-        {" · "}
         <Link to="/favorite-actors">❤️ Fav Actors</Link>
+        {" · "}
+        <Link to="/favorite-tvshows">❤️ Fav TV Shows</Link>
       </div>
     </>
   );
