@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import { FavMoviesProvider } from "../contexts/FavMoviesContext";
 import { UseFavMoviesContext } from "../contexts/FavMoviesContext";
 import MovieCard from "../components/MovieCard";
 

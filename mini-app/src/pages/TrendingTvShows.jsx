@@ -12,7 +12,6 @@ const TrendingTvShows = () => {
       try {
         const tvShows = await getTrendingTvShows();
         setTvShows(tvShows);
-        console.log(tvShows);
       } catch (e) {
         console.log(e);
         setErrorMsg("Failed Getting TV Shows");
