@@ -1,26 +1,22 @@
-# MovieFan App
+# Movie Fan App
 
 ### Tech
 
-Vanilla JavaScript · ReactJS · NodeJS · Vite
+`Vanilla JavaScript` · `ReactJS` · `NodeJS` · `Vite`
 
-### Practice Goals
+### Goals
 
-- ReactJS: useHook, useEffect, context API, router.
+✣ Practice ReactJS: useHook, useEffect, context API, router.
 
-- JavaScript: API calls, localStorage, promises, spreader syntax.
+✣ Practice JavaScript: API calls, localStorage, promises, spreader syntax.
 
-### TheMovieDB
+### APIs
 
-API used in this project. Docs below
+TheMovieDB's API is used in this project. Docs on https://developer.themoviedb.org/docs/getting-started and Reference on https://developer.themoviedb.org/reference/intro/getting-started
 
-- https://developer.themoviedb.org/docs/getting-started
+# Try It Live
 
-- https://developer.themoviedb.org/reference/intro/getting-started
-
-# Try App
-
-[Link 🚀](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/)
+🚀 [Movie Fan App](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/) 🚀
 
 # Preview
 
