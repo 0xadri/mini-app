@@ -14,6 +14,10 @@
 
 TheMovieDB's API is used in this project. Docs on https://developer.themoviedb.org/docs/getting-started and Reference on https://developer.themoviedb.org/reference/intro/getting-started
 
+### App Features
+
+Search Movies · Browse Movies/Series/Actors · Save My Favorite Movies/Series/Actors
+
 # Try It Live
 
 🚀 [Movie Fan App](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/) 🚀
