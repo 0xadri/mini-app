@@ -1,35 +1,48 @@
 # Movie Fan App
 
-### Tech
+Pitch: Browse trending actors, series and movies. Save your favorites for later.
+
+### 🚀 [Try It Live](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/) 🚀
+
+
+## App Features
+
+Responsive UX.
+
+Search Movies · Browse Movies/Series/Actors · Save My Favorite Movies/Series/Actors.
+
+Integration with TheMovieDB API: [docs](https://developer.themoviedb.org/docs/getting-started) and [reference](https://developer.themoviedb.org/reference/intro/getting-started). _Credits to TheMovieDB for the data and images._
+
+# Tech
 
 `Vanilla JavaScript` · `ReactJS` · `NodeJS` · `Vite`
 
-### Goals
+### Details
 
-✣ Practice ReactJS: useHook, useEffect, context API, router.
+- `ReactJS`: `useHook`, `useEffect`, `context API`, `router`.
 
-✣ Practice JavaScript: API calls, localStorage, promises, spreader syntax.
+- `JavaScript`: `API data fetch`, `localStorage`, `promises`, `spreader syntax`.
 
-### App Features
+## Build
 
-Search Movies · Browse Movies/Series/Actors · Save My Favorite Movies/Series/Actors
+1. download this repo
 
-Integration with TheMovieDB API: [docs](https://developer.themoviedb.org/docs/getting-started) and [reference](https://developer.themoviedb.org/reference/intro/getting-started).
+2. `npm install`
 
-# Try It Live
+3. `npm run dev`
 
-🚀 [Movie Fan App](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/) 🚀
+4. `.env` file expected to have 1 variable: `VITE_TMDB_API_KEY`. How to get them? Check out the docs of TheMovieDB.
 
 # Preview
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.39.38.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.39.38.png?raw=true)
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.39.47.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.39.47.png?raw=true)
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.40.00.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.00.png?raw=true)
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.40.10.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.10.png?raw=true)
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.40.15.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.15.png?raw=true)
 
-![MovieFan App, by Adri](https://github.com/0xadri/mini-app/blob/main/mini-app/public/screenshots/Screenshot%202025-04-15%20at%2018.40.23.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.23.png?raw=true)
