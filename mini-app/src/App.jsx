@@ -17,17 +17,19 @@ function App() {
     <FavMoviesProvider>
       <FavActorsProvider>
         <FavTvShowsProvider>
-          <NavBar />
-          <div className="main-content">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/popular-movies" element={<PopularMovies />} />
-              <Route path="/favorite-movies" element={<FavMovies />} />
-              <Route path="/favorite-tvshows" element={<FavTvShows />} />
-              <Route path="/favorite-actors" element={<FavActors />} />
-              <Route path="/trending-actors" element={<TrendingActors />} />
-              <Route path="/trending-tvshows" element={<TrendingTvShows />} />
-            </Routes>
+          <div className="h-screen">
+            <NavBar />
+            <div className="main-content">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/popular-movies" element={<PopularMovies />} />
+                <Route path="/favorite-movies" element={<FavMovies />} />
+                <Route path="/favorite-tvshows" element={<FavTvShows />} />
+                <Route path="/favorite-actors" element={<FavActors />} />
+                <Route path="/trending-actors" element={<TrendingActors />} />
+                <Route path="/trending-tvshows" element={<TrendingTvShows />} />
+              </Routes>
+            </div>
           </div>
         </FavTvShowsProvider>
       </FavActorsProvider>
