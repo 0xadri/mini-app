@@ -40,14 +40,16 @@ const MovieCard = ({ movie }) => {
   };
 
   return (
-    <div className="movie-card">
-      <h3>{movie.original_title}</h3>
-      <h4>
-        Directed By:{" "}
-        {isLoading
-          ? "Loading directors..."
-          : movieDirectors?.join(", ").toString()}
-      </h4>
+    <div className="relative max-w-md m-auto mb-5 overflow-hidden border border-zinc-600 rounded-xl group">
+      <div className="absolute left-5 top-5 p-3 rounded-md bg-neutral-950/50 hidden group-hover:block max-sm:block">
+        <h3 className="text-xl">{movie.original_title}</h3>
+        <h4 className="mt-2 text-lg">
+          Directed By:{" "}
+          {isLoading
+            ? "Loading directors..."
+            : movieDirectors?.join(", ").toString()}
+        </h4>
+      </div>
       <img
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.original_title}
