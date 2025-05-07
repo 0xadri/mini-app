@@ -6,12 +6,14 @@ const FavTvShows = () => {
 
   return (
     <>
-      {favTvShows ? (
+      {favTvShows && favTvShows.length > 1 ? (
         favTvShows.map((tvshow) => {
           return <TvshowCard tvshow={tvshow} />;
         })
       ) : (
-        <div>Nothing</div>
+        <h2 className="mt-10 text-lg text-center">
+          You have no favorited any tv shows
+        </h2>
       )}
     </>
   );

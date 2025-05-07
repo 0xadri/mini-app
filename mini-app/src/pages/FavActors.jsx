@@ -1,16 +1,20 @@
 import ActorCard from "../components/ActorCard";
 import { useFavActorsContext } from "../contexts/FavActorsContext";
-import { useState, useEffect } from "react";
 
 const FavActors = () => {
   const { favoriteActors } = useFavActorsContext();
 
   return (
     <>
-      {favoriteActors &&
+      {favoriteActors && favoriteActors.length > 1 ? (
         favoriteActors.map((actor, index) => (
           <ActorCard key={index} actor={actor} />
-        ))}
+        ))
+      ) : (
+        <h2 className="mt-10 text-lg text-center">
+          You have no favorited any actor
+        </h2>
+      )}
     </>
   );
 };
