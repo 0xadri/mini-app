@@ -34,14 +34,26 @@ Integration with TheMovieDB API: [docs](https://developer.themoviedb.org/docs/ge
 
 # Preview
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.39.38.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.01.50.png)
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.39.47.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.02.50.png)
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.00.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.03.28.png)
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.10.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.03.49.png)
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.15.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.03.58.png)
 
-![MovieFan App, by Adri](public/screenshots/Screenshot%202025-04-15%20at%2018.40.23.png?raw=true)
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.04.16.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.05.00.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.05.27.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.05.53.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.06.33.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.06.42.png)
+
+![MovieFan App, by Adri](public/screenshots/Screenshot%202025-05-07%20at%2013.06.48.png)
