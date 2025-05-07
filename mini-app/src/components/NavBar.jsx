@@ -18,7 +18,7 @@ const NavBar = () => {
             />
           </Link>
           <a
-            href="https://github.com/0xadri/ima-kokode"
+            href="https://github.com/0xadri/mini-app/tree/main/mini-app"
             target="_blank"
             className="float-right px-3 py-1.5 max-sm:py-2 max-sm:px-2  sm:ml-6 max-sm:text-xs  hover:border-zinc-200 border-zinc-400 bg-gray-800 border font-medium rounded-lg text-sm text-center  hover:bg-gray-700 focus:ring-2 focus:outline-none focus:ring-blue-300"
           >

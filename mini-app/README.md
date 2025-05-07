@@ -4,7 +4,6 @@ Pitch: Browse trending actors, series and movies. Save your favorites for later.
 
 ### 🚀 [Try It Live](http://movie-fan-app.s3-website.eu-north-1.amazonaws.com/) 🚀
 
-
 ## App Features
 
 Responsive UX.
@@ -31,7 +30,7 @@ Integration with TheMovieDB API: [docs](https://developer.themoviedb.org/docs/ge
 
 3. `npm run dev`
 
-4. `.env` file expected to have 1 variable: `VITE_TMDB_API_KEY`. How to get them? Check out the docs of TheMovieDB.
+4. `.env` file expected to have 1 variable: `VITE_TMDB_API_KEY`. How to get it? Check out the TheMovieDB official docs linked above.
 
 # Preview
 
