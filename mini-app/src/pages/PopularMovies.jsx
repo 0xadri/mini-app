@@ -24,7 +24,6 @@ const PopularMovies = () => {
 
   return (
     <>
-      <h2>Popular Movies</h2>
       {isLoading ? (
         <div>Loading...</div>
       ) : (

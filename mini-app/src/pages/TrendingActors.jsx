@@ -25,7 +25,6 @@ const TrendingActors = () => {
 
   return (
     <>
-      <h1>Trending Actors</h1>
       {isLoading ? (
         <div>Loading...</div>
       ) : (

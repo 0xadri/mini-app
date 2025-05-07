@@ -6,7 +6,6 @@ const FavMovies = () => {
 
   return (
     <>
-      <h1>Favorite Movies</h1>
       {favMovies &&
         favMovies.map((movie, index) => (
           <MovieCard movie={movie} key={index} />

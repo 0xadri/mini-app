@@ -7,7 +7,6 @@ const FavActors = () => {
 
   return (
     <>
-      <h1>Favorite Actors</h1>
       {favoriteActors &&
         favoriteActors.map((actor, index) => (
           <ActorCard key={index} actor={actor} />

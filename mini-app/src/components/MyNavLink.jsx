@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const MyNavLink = ({ to, className, txt }) => {
+const MyNavLink = ({ to, txt, classRegular, classActive }) => {
   return (
-    <Link to={to} className={className}>
+    <NavLink
+      to={to}
+      className={({ isActive }) =>
+        isActive ? `${classActive}` : `${classRegular}`
+      }
+    >
       {txt}
-    </Link>
+    </NavLink>
   );
 };
 

@@ -24,7 +24,6 @@ const TrendingTvShows = () => {
   }, []);
   return (
     <>
-      <h1>Trending TV Shows</h1>
       {isLoading ? (
         <div>Loading...</div>
       ) : (

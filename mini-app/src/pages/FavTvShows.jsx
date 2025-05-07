@@ -6,7 +6,6 @@ const FavTvShows = () => {
 
   return (
     <>
-      <h1>Favorite TV Shows</h1>
       {favTvShows ? (
         favTvShows.map((tvshow) => {
           return <TvshowCard tvshow={tvshow} />;
