@@ -6,7 +6,7 @@ const FavActors = () => {
 
   return (
     <>
-      {favoriteActors && favoriteActors.length > 1 ? (
+      {favoriteActors && favoriteActors.length > 0 ? (
         favoriteActors.map((actor, index) => (
           <ActorCard key={index} actor={actor} />
         ))

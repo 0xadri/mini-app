@@ -19,7 +19,7 @@ function App() {
         <FavTvShowsProvider>
           <div className="h-screen">
             <NavBar />
-            <div className="main-content">
+            <div className="main-content max-sm:px-3">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/popular-movies" element={<PopularMovies />} />

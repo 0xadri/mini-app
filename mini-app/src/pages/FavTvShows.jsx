@@ -6,7 +6,7 @@ const FavTvShows = () => {
 
   return (
     <>
-      {favTvShows && favTvShows.length > 1 ? (
+      {favTvShows && favTvShows.length > 0 ? (
         favTvShows.map((tvshow) => {
           return <TvshowCard tvshow={tvshow} />;
         })

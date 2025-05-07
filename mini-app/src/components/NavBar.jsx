@@ -8,12 +8,12 @@ const NavBar = () => {
   const classActiveNavItem = classBaseNavItem + " border-zinc-300";
   return (
     <>
-      <header className="w-full mx-auto pt-3 pb-2 px-10 md:px-20 bg-gray-900 text-white">
-        <div className="h-9 mb-3">
+      <header className="w-full mx-auto pt-3 pb-2 px-10 max-sm:px-3 md:px-20 bg-gray-900 text-white">
+        <div className="h-9 mb-3 max-sm:mb-2">
           <Link to="/" className="float-left">
             <img
               src="/logo-movie-fan_00.png"
-              className="max-h-10 max-sm:max-w-35"
+              className="max-h-10 max-sm:max-w-43"
               alt="Movie Fan Logo"
             />
           </Link>
