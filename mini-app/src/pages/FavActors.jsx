@@ -12,7 +12,7 @@ const FavActors = () => {
         ))
       ) : (
         <h2 className="mt-10 text-lg text-center">
-          You have no favorited any actor
+          You have not favorited any actor
         </h2>
       )}
     </>

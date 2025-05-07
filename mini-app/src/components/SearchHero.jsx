@@ -30,7 +30,10 @@ const SearchHero = () => {
 
   return (
     <>
-      <form onSubmit={searchWhatever} className="my-10 mx-40 text-center">
+      <form
+        onSubmit={searchWhatever}
+        className="my-10 mx-40 max-sm:mx-5 text-center"
+      >
         <div className="relative">
           <input
             type="text"

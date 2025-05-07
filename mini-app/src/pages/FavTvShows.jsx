@@ -12,7 +12,7 @@ const FavTvShows = () => {
         })
       ) : (
         <h2 className="mt-10 text-lg text-center">
-          You have no favorited any tv shows
+          You have not favorited any tv shows
         </h2>
       )}
     </>
