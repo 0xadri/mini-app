@@ -1,6 +1,9 @@
 import { useState, useEffect, useContext } from "react";
 import { getMovieCredits } from "../services/api";
 import { UseFavMoviesContext } from "../contexts/FavMoviesContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart as faHeartSolid } from "@fortawesome/free-solid-svg-icons";
+import { faHeart as faHeartRegular } from "@fortawesome/free-regular-svg-icons";
 
 const MovieCard = ({ movie }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -38,7 +41,21 @@ const MovieCard = ({ movie }) => {
     if (favorite) rmFavMovie(movie);
     else addFavMovie(movie);
   };
-
+  const heartEmpty = (
+    <FontAwesomeIcon
+      icon={faHeartRegular}
+      size="xl"
+      beatFade
+      className="cursor-pointer text-white"
+    />
+  );
+  const heartFull = (
+    <FontAwesomeIcon
+      icon={faHeartSolid}
+      size="xl"
+      className="cursor-pointer text-red-600"
+    />
+  );
   return (
     <div className="relative max-w-md m-auto mb-5 overflow-hidden border border-zinc-600 rounded-xl group">
       <div className="absolute left-5 top-5 p-3 rounded-md bg-neutral-950/50 hidden group-hover:block max-sm:block">
@@ -54,8 +71,8 @@ const MovieCard = ({ movie }) => {
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.original_title}
       />
-      <div className="movie-toggle-fav" onClick={handleToggleFav}>
-        Toggle Favorite - {favorite ? "is Fav" : "isn't Fav"}
+      <div className="absolute right-5 top-5" onClick={handleToggleFav}>
+        {favorite ? heartFull : heartEmpty}
       </div>
     </div>
   );
